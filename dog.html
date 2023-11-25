@@ -5,7 +5,7 @@
 <img id =="dog image" src alt =="Random Dog image">
 <script>
 const request = new XMLHttpRequest();
-request open (' GET', 'https://api.thecatapi.com/v1/images/search');
+request open ('GET', 'https://api.thecatapi.com/v1/images/search');
 request onload = function (){
 const data = JSON.parse(request.responseText);
 const catImage = document.getElementById ('dog image');
